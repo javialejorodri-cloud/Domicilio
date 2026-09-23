@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS 'Domicilios' DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE 'Domicilios';
+CREATE DATABASE IF NOT EXISTS Domicilios DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE Domicilios;
 
 -- Creacion de las tablas 
 CREATE TABLE cliente (
