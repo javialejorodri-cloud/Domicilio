@@ -1,6 +1,6 @@
-INSERT INTO cliente (id_cliente, nombre, correo, direccion, telefono) VALUES
-(1, 'John Doe', 'john.doe@example.com', '123 Main St', 123),
-(2, 'Jane Smith', 'jane.smith@example.com', '456 Oak Ave', 098),
-(3, 'Bob Johnson', 'bob.johnson@example.com', '789 Pine Rd', 558),
-(4, 'Alice Brown', 'alice.brown@example.com', '321 Elm St', 111),
-(5, 'Charlie Davis', 'charlie.davis@example.com', '654 Maple Dr', 222);
+INSERT INTO repartidor (nombre, telefono, vehiculo, placa, estado) VALUES 
+('Javier Morales', '3119876543', 'Moto', 'ABC123', 'Disponible'),
+('Andrea Castro', '3128765432', 'Moto', 'XYZ789', 'Ocupado'),
+('David Herrera', '3137654321', 'Bicicleta', 'N/A', 'Disponible'),
+('Camila Rojas', '3146543210', 'Moto', 'DEF456', 'Disponible'),
+('Esteban Ruiz', '3155432109', 'Moto', 'GHI789', 'Fuera de servicio');
