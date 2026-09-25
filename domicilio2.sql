@@ -1,6 +1,6 @@
-INSERT INTO pedido (id_pedido, id_cliente, id_direccion, id_producto, fecha_pedido, subtotal, costo_domicilio, total, estado_pedido) VALUES 
-(1, 1, 1, 1, '2026-09-22 10:35:00', 50000, 400000, 54000, 'En camino'),
-(2, 2, 2, 2, '2026-09-22 11:20:00', 42000, 500000, 47000, 'Entregado'),
-(3, 3, 3, 3, '2026-09-22 12:10:00', 90000, 400000, 94000, 'Preparando'),
-(4, 4, 4, 4, '2026-09-22 13:25:00', 28000, 350000, 31500, 'Pendiente'),
-(5, 5, 5, 5, '2026-09-22 14:10:00', 44000, 450000, 48500, 'Entregado');
+INSERT INTO entrega (id_entrega, id_pedido, id_repartidor, estado_entrega, fecha_entrega, fecha_asignacion, hora_asignacion, observaciones) VALUES 
+(1, 1, 1, 'En camino', '2026-09-22', '2026-09-22', '10:30:00', 'Llevar con cuidado'),
+(2, 2, 2, 'Entregado', '2026-09-22', '2026-09-22', '11:15:00', 'Entregado en recepción'),
+(3, 3, 3, 'Preparando', NULL, '2026-09-22', '12:00:00', 'Pendiente de asignar repartidor final'),
+(4, 4, 4, 'Pendiente', NULL, '2026-09-22', '13:20:00', 'Sin novedad'),
+(5, 5, 5, 'Entregado', '2026-09-22', '2026-09-22', '14:00:00', 'Recibido por el cliente');
